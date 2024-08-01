@@ -1,0 +1,16 @@
+C:\Users\werne\source\repos\Projek\Projek\bin\Debug\net5.0\Projek.exe
+C:\Users\werne\source\repos\Projek\Projek\bin\Debug\net5.0\Projek.deps.json
+C:\Users\werne\source\repos\Projek\Projek\bin\Debug\net5.0\Projek.runtimeconfig.json
+C:\Users\werne\source\repos\Projek\Projek\bin\Debug\net5.0\Projek.runtimeconfig.dev.json
+C:\Users\werne\source\repos\Projek\Projek\bin\Debug\net5.0\Projek.dll
+C:\Users\werne\source\repos\Projek\Projek\bin\Debug\net5.0\ref\Projek.dll
+C:\Users\werne\source\repos\Projek\Projek\bin\Debug\net5.0\Projek.pdb
+C:\Users\werne\source\repos\Projek\Projek\obj\Debug\net5.0\Projek.csproj.AssemblyReference.cache
+C:\Users\werne\source\repos\Projek\Projek\obj\Debug\net5.0\Projek.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\werne\source\repos\Projek\Projek\obj\Debug\net5.0\Projek.AssemblyInfoInputs.cache
+C:\Users\werne\source\repos\Projek\Projek\obj\Debug\net5.0\Projek.AssemblyInfo.cs
+C:\Users\werne\source\repos\Projek\Projek\obj\Debug\net5.0\Projek.csproj.CoreCompileInputs.cache
+C:\Users\werne\source\repos\Projek\Projek\obj\Debug\net5.0\Projek.dll
+C:\Users\werne\source\repos\Projek\Projek\obj\Debug\net5.0\ref\Projek.dll
+C:\Users\werne\source\repos\Projek\Projek\obj\Debug\net5.0\Projek.pdb
+C:\Users\werne\source\repos\Projek\Projek\obj\Debug\net5.0\Projek.genruntimeconfig.cache
