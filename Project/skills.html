@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="stylesheet" href="skills.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
+    <style>
+        body {
+            background-size: cover;
+        }
+        #Title {
+            color: whitesmoke;
+            text-align: center;
+            font-size: xx-large;
+
+        }
+        #mainpage {
+            color: whitesmoke;
+        }
+        #ourstory {
+            color: whitesmoke;
+        }
+        #contactus {
+            color: whitesmoke;
+        }
+        #rsvp {
+            color: whitesmoke;
+        }
+        #giftregistry {
+            color:whitesmoke
+        }
+        nav {
+            text-align: center;
+        }
+        #download-button{
+        font-family: 'Poppins', sans-serif;
+        display: inline-block;
+        padding: 12px 24px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #b1744c;
+        border: none;
+        border-radius: 8px;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s;
+        margin-left: 38%;
+        }
+        #view-projects-button{
+        font-family: 'Poppins', sans-serif;
+        display: inline-block;
+        padding: 12px 24px;
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+        background-color: #b1744c;
+        border: none;
+        border-radius: 8px;
+        text-decoration: none;
+        text-align: center;
+        cursor: pointer;
+        transition: background-color 0.3s, transform 0.3s;
+        }
+        #download-button:hover, #view-projects-button:hover {
+        background-color: #742f7a;
+        transform: scale(1.05);
+        }
+
+        .download-button:active, .view-projects-button:active {
+        background-color: #004494;
+        }
+    </style>
+</head>
+    <body id="bgPic" style="background-image: url('wolfgang-hasselmann-pVr6wvUneMk-unsplash.jpg'); background-size: cover;">
+        <section id="Container">
+            <p id="Title">SKILLS AND EXPERIENCE</p>
+            <hr id="lin">
+            <nav id="Menu">
+                <a class="button-type1" id="mainpage" href="Main Page.html" style="text-decoration:none;">MAIN PAGE</a>
+                <a class="button-type1" id="contactus" href="contactdetails.html" style="text-decoration:none;">CONTACT DETAILS</a>
+            </nav>
+    </section>
+</section>
+<div class="skills-soft">
+    <ul>
+        <li data-percent="60">
+            <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45"></circle>
+                <circle class="cbar" cx="50" cy="50" r="45"></circle>
+            </svg><span>SQL</span><small></small>
+        </li>
+        <li data-percent="65">
+            <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45"></circle>
+                <circle class="cbar" cx="50" cy="50" r="45"></circle>
+            </svg><span>CSS and HTML</span><small></small>
+        </li>
+        <li data-percent="50">
+            <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45"></circle>
+                <circle class="cbar" cx="50" cy="50" r="45"></circle>
+            </svg><span>C#</span><small></small>
+        </li>
+        <li data-percent="50">
+            <svg viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="45"></circle>
+                <circle class="cbar" cx="50" cy="50" r="45"></circle>
+            </svg><span>Python</span><small></small>
+        </li>
+    </ul>
+</div>
+
+
+<div class="skills-section-grid">
+    <div class="card-container">
+        <div class="card">
+            <div class="front-content">
+                <p>Technical Skills</p>
+            </div>
+            <div class="content">
+                <h2>Technical Skills</h2>
+                <ul>
+                    <li>Programming Languages: Python, JavaScript, C#, HTML5</li>
+                    <li>Databases: MySQL, MongoDB</li>
+                    <li>Tools: Visual Studios, VS Code, Jupyter Notebooks</li>
+                    <li>Cloud: AWS Basics Training</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-container">
+        <div class="card">
+            <div class="front-content">
+                <p>Soft Skills</p>
+            </div>
+            <div class="content">
+                <h2>Soft Skills</h2>
+                <ul>
+                    <li>Ability to explain technical concepts to non-technical audiences</li>
+                    <li>Ability to approach complex challenges systematically and under pressure</li>
+                    <li>Experience working effectively in diverse teams and respect for different perspectives</li>
+                    <li>Motivating and guiding team members toward common goals</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="button-container">
+    <a href="CV Shayur Chaithram.pdf" class="download-button" id="download-button" download="CV Shayur Chaithram.pdf">Download CV</a>
+    <a href="https://github.com/Shayur12" class="view-projects-button" id="view-projects-button" target="_blank">See More Projects</a>
+</div>
+
+<script class="circles">
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelectorAll(".skills-soft li svg").forEach(function(svg, i) {
+            var circle = svg.querySelector(".cbar");
+            var r = circle.getAttribute("r");
+            var c = Math.PI * (r * 2);
+            var percent = svg.parentNode.getAttribute("data-percent");
+            var cbar = (100 - percent) / 100 * c;
+            
+            circle.style.strokeDashoffset = c;
+            circle.style.strokeDasharray = c;
+            
+            setTimeout(function() {
+                circle.style.transitionDuration = ".5s";
+                circle.style.strokeDashoffset = cbar;
+            }, i * 150);
+        });
+    });
+    
+</script>
+
+</body>
+</html>
